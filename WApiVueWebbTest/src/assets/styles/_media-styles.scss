@@ -1,0 +1,51 @@
+@import 'variables';
+// Container
+.container {
+  // ... existing styles ...
+
+  @media (max-width: $breakpoint-phone) {
+    padding: 0 2rem;
+  }
+}
+
+// Footer
+footer {
+  // ... existing styles ...
+
+  .footer {
+    @media (max-width: $breakpoint-tablet) {
+      flex-direction: column;
+    }
+  }
+}
+
+// Pdf Converter
+.pdf-converter-container {
+  // ... existing styles ...
+
+  @media (max-width: $breakpoint-tablet) {
+    padding: 1rem;
+  }
+
+  @media (max-width: $breakpoint-phone) {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pdf-converter-container {
+    max-width: 400px !important;
+  }
+}
+
+// Media Query for max-width: 900px
+@media (max-width: 900px) {
+  .mobile-menu {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .big-nav {
+    display: none;
+  }
+}

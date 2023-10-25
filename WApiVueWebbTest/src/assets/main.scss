@@ -1,0 +1,29 @@
+// Import boilerplate styles
+@import './styles/boilerplate';
+
+// Import VUE's base css
+@import './base.css';
+
+// Import footer styles
+@import './styles/footer';
+
+// Import nav styles
+@import './styles/nav';
+
+// Import dark mode styles
+@import './styles/dark-mode';
+
+// Import shared styles
+@import './styles/shared';
+
+// Import media styles
+@import './styles/media-styles';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #e8e8e8;
+}

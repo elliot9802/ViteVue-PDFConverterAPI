@@ -1,0 +1,30 @@
+@import 'variables';
+
+footer {
+  padding: 5rem 0;
+  width: 100%;
+  background-color: $main-color;
+}
+
+.footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: $socials-color;
+  gap: 5rem;
+}
+
+.footer h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-socials i {
+  color: $socials-color;
+  font-size: 2.5rem;
+}
